@@ -1,17 +1,17 @@
 @font-face {
-	font-family: 'et-line';
-	src:url('et-line/et-line.eot');
-	src:url('et-line/et-line.eot?#iefix') format('embedded-opentype'),
-		url('et-line/et-line.woff') format('woff'),
-		url('et-line/et-line.ttf') format('truetype'),
-		url('et-line/et-line.svg#et-line') format('svg');
+	font-family: "et-line";
+	src: url("et-line/et-line.eot");
+	src: url("et-line/et-line.eot") format("embedded-opentype"),
+		url("et-line/et-line.woff") format("woff"),
+		url("et-line/et-line.ttf") format("truetype"),
+		url("et-line/et-line.svg#et-line") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-	font-family: 'et-line';
+	font-family: "et-line";
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -20,7 +20,7 @@
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	display:inline-block;
+	display: inline-block;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -29,8 +29,107 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-et-mobile, .icon-et-laptop, .icon-et-desktop, .icon-et-tablet, .icon-et-phone, .icon-et-document, .icon-et-documents, .icon-et-search, .icon-et-clipboard, .icon-et-newspaper, .icon-et-notebook, .icon-et-book-open, .icon-et-browser, .icon-et-calendar, .icon-et-presentation, .icon-et-picture, .icon-et-pictures, .icon-et-video, .icon-et-camera, .icon-et-printer, .icon-et-toolbox, .icon-et-briefcase, .icon-et-wallet, .icon-et-gift, .icon-et-bargraph, .icon-et-grid, .icon-et-expand, .icon-et-focus, .icon-et-edit, .icon-et-adjustments, .icon-et-ribbon, .icon-et-hourglass, .icon-et-lock, .icon-et-megaphone, .icon-et-shield, .icon-et-trophy, .icon-et-flag, .icon-et-map, .icon-et-puzzle, .icon-et-basket, .icon-et-envelope, .icon-et-streetsign, .icon-et-telescope, .icon-et-gears, .icon-et-key, .icon-et-paperclip, .icon-et-attachment, .icon-et-pricetags, .icon-et-lightbulb, .icon-et-layers, .icon-et-pencil, .icon-et-tools, .icon-et-tools-2, .icon-et-scissors, .icon-et-paintbrush, .icon-et-magnifying-glass, .icon-et-circle-compass, .icon-et-linegraph, .icon-et-mic, .icon-et-strategy, .icon-et-beaker, .icon-et-caution, .icon-et-recycle, .icon-et-anchor, .icon-et-profile-male, .icon-et-profile-female, .icon-et-bike, .icon-et-wine, .icon-et-hotairballoon, .icon-et-globe, .icon-et-genius, .icon-et-map-pin, .icon-et-dial, .icon-et-chat, .icon-et-heart, .icon-et-cloud, .icon-et-upload, .icon-et-download, .icon-et-target, .icon-et-hazardous, .icon-et-piechart, .icon-et-speedometer, .icon-et-global, .icon-et-compass, .icon-et-lifesaver, .icon-et-clock, .icon-et-aperture, .icon-et-quote, .icon-et-scope, .icon-et-alarmclock, .icon-et-refresh, .icon-et-happy, .icon-et-sad, .icon-et-facebook, .icon-et-twitter, .icon-et-googleplus, .icon-et-rss, .icon-et-tumblr, .icon-et-linkedin, .icon-et-dribbble {
-	font-family: 'et-line';
+.icon-et-mobile,
+.icon-et-laptop,
+.icon-et-desktop,
+.icon-et-tablet,
+.icon-et-phone,
+.icon-et-document,
+.icon-et-documents,
+.icon-et-search,
+.icon-et-clipboard,
+.icon-et-newspaper,
+.icon-et-notebook,
+.icon-et-book-open,
+.icon-et-browser,
+.icon-et-calendar,
+.icon-et-presentation,
+.icon-et-picture,
+.icon-et-pictures,
+.icon-et-video,
+.icon-et-camera,
+.icon-et-printer,
+.icon-et-toolbox,
+.icon-et-briefcase,
+.icon-et-wallet,
+.icon-et-gift,
+.icon-et-bargraph,
+.icon-et-grid,
+.icon-et-expand,
+.icon-et-focus,
+.icon-et-edit,
+.icon-et-adjustments,
+.icon-et-ribbon,
+.icon-et-hourglass,
+.icon-et-lock,
+.icon-et-megaphone,
+.icon-et-shield,
+.icon-et-trophy,
+.icon-et-flag,
+.icon-et-map,
+.icon-et-puzzle,
+.icon-et-basket,
+.icon-et-envelope,
+.icon-et-streetsign,
+.icon-et-telescope,
+.icon-et-gears,
+.icon-et-key,
+.icon-et-paperclip,
+.icon-et-attachment,
+.icon-et-pricetags,
+.icon-et-lightbulb,
+.icon-et-layers,
+.icon-et-pencil,
+.icon-et-tools,
+.icon-et-tools-2,
+.icon-et-scissors,
+.icon-et-paintbrush,
+.icon-et-magnifying-glass,
+.icon-et-circle-compass,
+.icon-et-linegraph,
+.icon-et-mic,
+.icon-et-strategy,
+.icon-et-beaker,
+.icon-et-caution,
+.icon-et-recycle,
+.icon-et-anchor,
+.icon-et-profile-male,
+.icon-et-profile-female,
+.icon-et-bike,
+.icon-et-wine,
+.icon-et-hotairballoon,
+.icon-et-globe,
+.icon-et-genius,
+.icon-et-map-pin,
+.icon-et-dial,
+.icon-et-chat,
+.icon-et-heart,
+.icon-et-cloud,
+.icon-et-upload,
+.icon-et-download,
+.icon-et-target,
+.icon-et-hazardous,
+.icon-et-piechart,
+.icon-et-speedometer,
+.icon-et-global,
+.icon-et-compass,
+.icon-et-lifesaver,
+.icon-et-clock,
+.icon-et-aperture,
+.icon-et-quote,
+.icon-et-scope,
+.icon-et-alarmclock,
+.icon-et-refresh,
+.icon-et-happy,
+.icon-et-sad,
+.icon-et-facebook,
+.icon-et-twitter,
+.icon-et-googleplus,
+.icon-et-rss,
+.icon-et-tumblr,
+.icon-et-linkedin,
+.icon-et-dribbble {
+	font-family: "et-line";
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -39,7 +138,7 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	display:inline-block;
+	display: inline-block;
 }
 .icon-et-mobile:before {
 	content: "\e000";

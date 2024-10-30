@@ -1,10 +1,10 @@
 {
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"serve": "vite preview"
+		"dev": "parcel index.html index-dark.html --open",
+		"build": "parcel build index.html index-dark.html",
+		"serve": "parcel serve index.html index-dark.html"
 	},
 	"devDependencies": {
-		"vite": "^5.4.10"
+		"parcel": "^2.12.0"
 	}
 }

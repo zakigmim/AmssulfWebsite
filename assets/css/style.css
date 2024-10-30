@@ -20127,7 +20127,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .slider-caption-bg {
   padding: var(--cnvs-slider-caption-bg-padding);
   border-radius: var(--cnvs-slider-caption-bg-radius);
-  background-color: var(--cnvs- slider-caption-bg-dark);
+  background-color: var(--cnvs-slider-caption-bg-dark);
   top: auto;
   bottom: var(--cnvs-slider-caption-offset);
   left: var(--cnvs-slider-caption-offset);
@@ -23343,7 +23343,7 @@ td.actions {
     transition: none;
   }
 }
-.button.button-border.button-fill::before ::before {
+.button.button-border.button-fill::before {
   width: 100%;
 }
 .button.button-border.button-fill.fill-from-right::before {
