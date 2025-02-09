@@ -54,6 +54,18 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1" />
 
+		<!-- favicon -->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/assets/images/favicon.ico"
+			media="(prefers-color-scheme: light)" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="assets/images/favicon-dark.ico"
+			media="(prefers-color-scheme: dark)" />
+
 		<!-- Document Title
 	============================================= -->
 		<title>Photographer | Amssulf</title>
@@ -62,7 +74,7 @@
 	<!-- Page Loader, stretched (body)
 ============================================= -->
 	<body
-		class="stretched"
+		class="stretched dark"
 		data-loader-html="<div><img src='assets/images/icons/loader.svg' alt='Loader'></div>"
 		data-menu-breakpoint="9999">
 		<!-- Document Wrapper
@@ -78,10 +90,10 @@
 					<div class="container">
 						<div class="header-row">
 							<a
-								href="index.html"
+								href="index-light.html"
 								class="logo-link">
 								<img
-									src="/assets/images/amssulf_logo_light.png"
+									src="/assets/images/amssulf_logo_dark.png"
 									alt="Amssulf Logo"
 									height="100" />
 							</a>
@@ -150,8 +162,9 @@
 				id="slider"
 				class="slider-element min-vh-60 min-vh-md-100 include-header"
 				style="
-					background: url('assets/images/dots-1.png') 100% 0 no-repeat;
-					background-size: 60% auto;
+					background: url('assets/images/dots-white.png') 130% 0
+						no-repeat;
+					background-size: 60%;
 				">
 				<div class="slider-inner">
 					<div class="vertical-middle">
@@ -160,16 +173,14 @@
 							data-0="opacity: 1; overflow: visible; margin-top:0px"
 							data-top-bottom="opacity: 0; overflow: visible; margin-top:100px">
 							<div class="row align-items-center col-mb-50">
-								<div class="col-md-6">
+								<div class="col-md-6 dark">
 									<div class="py-5 py-md-0">
 										<small
 											class="text-muted text-uppercase fw-light ls-4 mb-1 d-block"
 											>Professional Photography &
 											Videography</small
 										>
-										<h2 class="text-dark">
-											Bring Visions to Life
-										</h2>
+										<h2>Bring Visions to Life.</h2>
 										<h5
 											class="fw-light ls-1"
 											style="opacity: 0.7">
@@ -198,10 +209,10 @@
 								<div class="col-md-6 ps-md-5 ps-lg-0">
 									<div class="row align-items-stretch">
 										<div
-											class="col-lg-6 col-md-12 rounded col-6 d-none d-sm-flex"
+											class="col-lg-6 col-md-12 rounded col-6 d-sm-flex"
 											style="
 												background: url('assets/images/1.jpg')
-													center center no-repeat;
+													center no-repeat;
 												background-size: cover;
 											"></div>
 										<div
@@ -209,10 +220,10 @@
 										<div
 											class="col-6 d-none d-lg-flex"></div>
 										<div
-											class="col-lg-6 col-md-12 gradient-border shadow-sm col-sm-6 col-12 max-height"
-											style="background-color: #fff">
+											class="col-lg-6 col-md-12 dark gradient-border shadow-sm col-sm-6 col-12 max-height"
+											style="background-color: #252525">
 											<div
-												class="feature-box flex-column px-3 py-4 fbox-sm">
+												class="feature-box flex-column not-dark px-3 py-4 fbox-sm">
 												<div class="fbox-media">
 													<img
 														src="/assets/images/icons/instagram.svg"
@@ -234,7 +245,6 @@
 														<a
 															href="https://instagram.com/amssulf"
 															target="_blank"
-															class="text-dark"
 															>Instagram
 															<i
 																class="bi-arrow-right fw-semibold position-relative"
@@ -257,10 +267,15 @@
 
 			<!-- Content
 		============================================= -->
-			<section id="content">
-				<div class="content-wrap pt-0">
+			<section
+				id="content"
+				style="
+					background-color: #050505;
+					border-top: 1px solid rgba(255, 255, 255, 0.1);
+				">
+				<div class="content-wrap">
 					<!-- Flip Card Sections -->
-					<div class="section mt-0">
+					<div class="section dark mt-0">
 						<div class="container">
 							<div
 								class="row align-items-center justify-content-between">
@@ -297,11 +312,11 @@
 									<div class="row">
 										<div class="col-sm-6">
 											<!-- Flip Card: Nature & Landscape -->
-											<div class="flip-card">
+											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
 													style="
-														background-color: #f9f9f9;
+														background-color: #050505;
 													">
 													<div
 														class="flip-card-inner">
@@ -311,7 +326,7 @@
 																class="fbox-icon position-relative mb-4">
 																<a href="#">
 																	<img
-																		src="/assets/images/icons/camera1-dark.svg"
+																		src="/assets/images/icons/camera1.svg"
 																		class="rounded-0 bg-transparent text-start"
 																		alt="Nature Photography Icon" />
 																</a>
@@ -340,9 +355,9 @@
 													</div>
 												</div>
 												<div
-													class="flip-card-back dark"
+													class="flip-card-back"
 													style="
-														background-image: url('assets/images/features/1-1.jpg');
+														background-image: url('assets/images/features/beach.jpg');
 													">
 													<div
 														class="flip-card-inner mt-3">
@@ -355,11 +370,11 @@
 										</div>
 										<div class="col-sm-6 mb-5">
 											<!-- Flip Card:  Travel & Cultural -->
-											<div class="flip-card">
+											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
 													style="
-														background-color: #f9f9f9;
+														background-color: #050505;
 													">
 													<div
 														class="flip-card-inner">
@@ -369,7 +384,7 @@
 																class="fbox-icon position-relative mb-4">
 																<a href="#">
 																	<img
-																		src="/assets/images/icons/travel-dark.svg"
+																		src="/assets/images/icons/travel.svg"
 																		class="rounded-0 bg-transparent text-start"
 																		alt="Travel Photography Icon" />
 																</a>
@@ -401,9 +416,9 @@
 													</div>
 												</div>
 												<div
-													class="flip-card-back dark"
+													class="flip-card-back"
 													style="
-														background-image: url('assets/images/features/2.jpg');
+														background-image: url('assets/images/features/woman_and_half.jpg');
 													">
 													<div
 														class="flip-card-inner mt-3">
@@ -417,11 +432,11 @@
 										</div>
 										<div class="col-sm-6 mb-5">
 											<!-- Flip Card: Wedding -->
-											<div class="flip-card">
+											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
 													style="
-														background-color: #f9f9f9;
+														background-color: #050505;
 													">
 													<div
 														class="flip-card-inner">
@@ -431,7 +446,7 @@
 																class="fbox-icon position-relative mb-4">
 																<a href="#">
 																	<img
-																		src="/assets/images/icons/wedding-dark.svg"
+																		src="/assets/images/icons/wedding.svg"
 																		class="rounded-0 bg-transparent text-start"
 																		alt="Wedding Photography Icon" />
 																</a>
@@ -461,9 +476,9 @@
 													</div>
 												</div>
 												<div
-													class="flip-card-back dark"
+													class="flip-card-back"
 													style="
-														background-image: url('assets/images/features/3.jpg');
+														background-image: url('assets/images/features/wedding_joy.jpg');
 													">
 													<div
 														class="flip-card-inner mt-3">
@@ -477,11 +492,11 @@
 										</div>
 										<div class="col-sm-6">
 											<!-- Flip Card: Real Estate & Product -->
-											<div class="flip-card">
+											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
 													style="
-														background-color: #f9f9f9;
+														background-color: #050505;
 													">
 													<div
 														class="flip-card-inner">
@@ -491,7 +506,7 @@
 																class="fbox-icon position-relative mb-4">
 																<a href="#">
 																	<img
-																		src="/assets/images/icons/camera2-dark.svg"
+																		src="/assets/images/icons/camera2.svg"
 																		class="rounded-0 bg-transparent text-start"
 																		alt="Commercial Photography Icon" />
 																</a>
@@ -521,9 +536,9 @@
 													</div>
 												</div>
 												<div
-													class="flip-card-back dark"
+													class="flip-card-back"
 													style="
-														background-image: url('assets/images/features/4.jpg');
+														background-image: url('assets/images/features/cozy_stay.jpg');
 													">
 													<div
 														class="flip-card-inner mt-3">
@@ -577,10 +592,10 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/1.jpg"
+											href="/assets/images/album/camel_man.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/1.jpg"
+												src="/assets/images/album/camel_man.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
@@ -589,7 +604,7 @@
 												>Travel</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Railway Station</a>
+												<a href="#">Camel Man</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -606,19 +621,19 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/2.jpg"
+											href="/assets/images/album/folklore.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/2.jpg"
+												src="/assets/images/album/folklore.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Travel</small
+												>Folklore</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Mt. Batur</a>
+												<a href="#">Ahwach Amazigh</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -635,19 +650,19 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/3.jpg"
+											href="/assets/images/album/golden_cyclist.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/3.jpg"
+												src="/assets/images/album/golden_cyclist.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Travel</small
+												>Event</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Bali, Indonesia</a>
+												<a href="#">Golden Cyclist</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -664,20 +679,78 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/4.jpg"
+											href="/assets/images/album/hoba_hoba_spirit.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/4.jpg"
+												src="/assets/images/album/hoba_hoba_spirit.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Wedding</small
+												>Festival Timitar</small
+											>
+											<h3 class="img-hover-title">
+												<a href="#">Hoba Hoba Spirit</a>
+											</h3>
+											<div class="img-link">
+												<a href="#"
+													><i
+														class="bi-arrow-right"></i
+												></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Photographs
+									============================================= -->
+								<div
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									<div class="img-hover-card">
+										<a
+											href="/assets/images/album/moroccan_rug.jpg"
+											data-lightbox="image"
+											><img
+												src="/assets/images/album/moroccan_rug.jpg"
+												alt="Image"
+										/></a>
+										<div class="img-hover-detail">
+											<small
+												class="text-light ls-1 fw-light"
+												>Artisanal</small
+											>
+											<h3 class="img-hover-title">
+												<a href="#">Moroccan Rug</a>
+											</h3>
+											<div class="img-link">
+												<a href="#"
+													><i
+														class="bi-arrow-right"></i
+												></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Photographs
+									============================================= -->
+								<div
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									<div class="img-hover-card">
+										<a
+											href="/assets/images/album/Nostalgia.jpg"
+											data-lightbox="image"
+											><img
+												src="/assets/images/album/Nostalgia.jpg"
+												alt="Image"
+										/></a>
+										<div class="img-hover-detail">
+											<small
+												class="text-light ls-1 fw-light"
+												>Heritage</small
 											>
 											<h3 class="img-hover-title">
 												<a href="#"
-													>Ms. Charle's Wedding</a
+													>Forgotten Treasure</a
 												>
 											</h3>
 											<div class="img-link">
@@ -695,19 +768,19 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/5.jpg"
+											href="/assets/images/album/Old_mosque.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/5.jpg"
+												src="/assets/images/album/Old_mosque.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Wedding</small
+												>Sites</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Romantic Moments</a>
+												<a href="#">Old Mosque</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -724,20 +797,20 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/6.jpg"
+											href="/assets/images/album/there_is_no_journey_without_fuel.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/6.jpg"
+												src="/assets/images/album/there_is_no_journey_without_fuel.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Travel</small
+												>Black & White</small
 											>
 											<h3 class="img-hover-title">
 												<a href="#"
-													>Surfing on Sunset</a
+													>No Journey Without Fuel</a
 												>
 											</h3>
 											<div class="img-link">
@@ -755,19 +828,21 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/7.jpg"
+											href="/assets/images/album/blue_source.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/7.jpg"
+												src="/assets/images/album/blue_source.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Candid</small
+												>Sites</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Black & White</a>
+												<a href="#"
+													>Blue Source - Tiznit</a
+												>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -784,222 +859,19 @@
 									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
 									<div class="img-hover-card">
 										<a
-											href="/assets/images/album/8.jpg"
+											href="/assets/images/album/curios_peacock.jpg"
 											data-lightbox="image"
 											><img
-												src="/assets/images/album/8.jpg"
+												src="/assets/images/album/curios_peacock.jpg"
 												alt="Image"
 										/></a>
 										<div class="img-hover-detail">
 											<small
 												class="text-light ls-1 fw-light"
-												>Candid</small
+												>Nature</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Reading Book</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/9.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/9.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Random</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Little Flubby</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/10.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/10.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Potrait</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Model Shoot</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/11.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/11.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Fashion</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Beach Shoot</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/12.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/12.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Model</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Modelling Pics</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/13.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/13.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Travel</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Street Picture</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/14.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/14.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Street</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Budapest, Hungry</a>
-											</h3>
-											<div class="img-link">
-												<a href="#"
-													><i
-														class="bi-arrow-right"></i
-												></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Photographs
-									============================================= -->
-								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
-									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/15.jpg"
-											data-lightbox="image"
-											><img
-												src="/assets/images/album/15.jpg"
-												alt="Image"
-										/></a>
-										<div class="img-hover-detail">
-											<small
-												class="text-light ls-1 fw-light"
-												>Candid</small
-											>
-											<h3 class="img-hover-title">
-												<a href="#">Street Picture</a>
+												<a href="#">Corios Peacock</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -1037,12 +909,13 @@
 					<div
 						class="section"
 						style="
-							background: #fff url('assets/images/dots.png') 170%
-								0% no-repeat;
-							background-size: 60% auto;
+							background: #050505
+								url('assets/images/dots-white.png') 130% 0%
+								no-repeat;
+							background-size: 60%;
 						">
 						<div class="container">
-							<div class="row justify-content-between">
+							<div class="row justify-content-between dark">
 								<!-- Counter: Years of Experience -->
 								<div class="col-lg-3 col-md-6 mt-4">
 									<div class="counter counter-large fw-light">
@@ -1055,7 +928,7 @@
 									</div>
 									<h5>Years of Experience</h5>
 									<p
-										class="text-muted mb-0 pb-5 border-bottom">
+										class="text-muted mb-0 pb-5 dark border-bottom">
 										Over seven years dedicated to perfecting
 										the art of visual storytelling in
 										Morocco.
@@ -1075,7 +948,7 @@
 									</div>
 									<h5>Projects Completed</h5>
 									<p
-										class="text-muted mb-0 pb-5 border-bottom">
+										class="text-muted mb-0 pb-5 dark border-bottom">
 										Delivering exceptional results for a
 										wide range of clients and projects.
 									</p>
@@ -1094,7 +967,7 @@
 									</div>
 									<h5>Satisfied Clients</h5>
 									<p
-										class="text-muted mb-0 pb-5 border-bottom">
+										class="text-muted mb-0 pb-5 dark border-bottom">
 										Building lasting relationships through
 										quality work and exceptional service.
 									</p>
@@ -1104,7 +977,7 @@
 					</div>
 
 					<!-- Clients (Placeholder images, no text changes) -->
-					<div class="section bg-transparent">
+					<div class="section dark bg-transparent">
 						<div class="container text-center">
 							<small
 								class="text-muted text-uppercase fw-light ls-3"
@@ -1124,7 +997,7 @@
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/light/ibnozohr_logo_light.png"
+													src="/assets/images/clients/dark/ibnozohr_logo_dark.png"
 													alt="clients"
 											/></a>
 										</div>
@@ -1132,7 +1005,7 @@
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/light/talweekend_logo_light.png"
+													src="/assets/images/clients/dark/talweekend_logo_dark.png"
 													alt="clients"
 											/></a>
 										</div>
@@ -1140,7 +1013,7 @@
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/light/tiflwine_logo_light.png"
+													src="/assets/images/clients/dark/tiflwine_logo_dark.png"
 													alt="clients"
 											/></a>
 										</div>
@@ -1148,7 +1021,7 @@
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/light/tiznit_logo_light.png"
+													src="/assets/images/clients/dark/tiznit_logo_dark.png"
 													alt="clients"
 											/></a>
 										</div>
@@ -1160,10 +1033,10 @@
 
 					<!-- Service Section -->
 					<div
-						class="section"
+						class="section bg-transparent"
 						style="padding: 140px 0">
 						<div class="container">
-							<div class="col-sm-6 mb-5">
+							<div class="col-sm-6 dark mb-5">
 								<small
 									class="text-muted text-uppercase fw-light ls-3 d-block"
 									>My Approach</small
@@ -1188,11 +1061,11 @@
 								<!-- Card 1:  Precision & Quality -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
-										class="card shadow-sm d-flex align-items-end flex-column p-3"
+										class="card dark d-flex align-items-end flex-column p-3"
 										style="
 											height: 450px;
-											background-color: #fff;
-											border: 1px solid #fff;
+											background-color: #222;
+											border: 1px solid #222;
 										">
 										<div></div>
 										<div class="mt-auto">
@@ -1230,11 +1103,11 @@
 								<!-- Card 2: Cinematic Storytelling -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
-										class="card shadow-sm d-flex align-items-end flex-column p-3"
+										class="card dark d-flex align-items-end flex-column p-3"
 										style="
 											height: 450px;
-											background-color: #fff;
-											border: 1px solid #fff;
+											background-color: #222;
+											border: 1px solid #222;
 										">
 										<div></div>
 										<div class="mt-auto">
@@ -1270,11 +1143,11 @@
 								<!-- Card 3:  Professional Editing -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
-										class="card shadow-sm d-flex align-items-end flex-column p-3"
+										class="card dark d-flex align-items-end flex-column p-3"
 										style="
 											height: 450px;
-											background-color: #fff;
-											border: 1px solid #fff;
+											background-color: #222;
+											border: 1px solid #222;
 										">
 										<div></div>
 										<div class="mt-auto">
@@ -1395,17 +1268,17 @@
 												<div
 													class="quote-bubble quote-bubble-left mb-3">
 													<p>
-														Incidunt deleniti
-														blanditiis quas aperiam
-														recusandae consequatur
-														ullam quibusdam cum
-														libero illo rerum
-														repellendus!
+														Abderrazzak captured the
+														most magical moments of
+														our wedding. Every photo
+														tells a story, and we
+														couldn't have asked for
+														a better photographer!
 													</p>
 												</div>
 												<div
 													class="fw-semibold h6 ls-1 mt-3 mb-0">
-													- Fig Nelson
+													- Yasmine El Mansouri
 												</div>
 											</div>
 										</div>
@@ -1414,17 +1287,36 @@
 												<div
 													class="quote-bubble quote-bubble-left mb-3">
 													<p>
-														Completely e-enable
-														premier infomediaries
-														and long-term
-														high-impact process
-														improvements. Completely
-														provide access to B2C.
+														Working with Amssulf was
+														an absolute pleasure.
+														The real estate photos
+														were stunning and helped
+														us showcase our
+														properties beautifully.
 													</p>
 												</div>
 												<div
 													class="fw-semibold h6 ls-1 mt-3 mb-0">
-													- Bailey Wonger
+													- Karim Benaissa
+												</div>
+											</div>
+										</div>
+										<div class="oc-item">
+											<div class="p-3">
+												<div
+													class="quote-bubble quote-bubble-left mb-3">
+													<p>
+														The nature photography
+														from Amssulf is
+														breathtaking. Every shot
+														is full of life and
+														emotion. Highly
+														recommended!
+													</p>
+												</div>
+												<div
+													class="fw-semibold h6 ls-1 mt-3 mb-0">
+													- Samir Ouhabi
 												</div>
 											</div>
 										</div>
@@ -1446,7 +1338,7 @@
 			============================================= -->
 				<div
 					id="copyrights"
-					style="background: #222">
+					style="background: #111">
 					<div class="container">
 						<div class="w-100 text-center mt-4">
 							<p class="mb-3">
@@ -1468,7 +1360,7 @@
 									<i class="fa-brands fa-whatsapp"></i>
 								</a>
 								<a
-									href="https://instagram.com/amssulf"
+									href="https://instagram.com/semicolonweb"
 									target="_blank"
 									class="social-icon si-small rounded-circle text-white bg-instagram">
 									<i class="bi-instagram"></i>
@@ -1499,7 +1391,7 @@
 		<!-- Dark Mode Switch
 	============================================= -->
 		<a
-			href="index-dark.html"
+			href="index-light.html"
 			class="dark-mode"
 			data-animate="fadeInRight">
 			<span>Dark Mode</span><i class="bi-toggle-off shadow"></i>
