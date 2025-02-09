@@ -7,8 +7,8 @@ export default defineConfig({
 		outDir: "dist",
 		rollupOptions: {
 			input: {
-				main: resolve(__dirname, "index.html"),
-				dark: resolve(__dirname, "index-dark.html"),
+				main: resolve(__dirname, "index-dark.html"),
+				light: resolve(__dirname, "index.html"),
 			},
 			external: ["jquery", "skrollr"],
 			output: {
