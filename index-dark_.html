@@ -14,7 +14,7 @@
 			content="SemiColonWeb" />
 		<meta
 			name="description"
-			content="Create Photographer &amp; Model Portfolio Websites with Amssulf Template. Get Amssulf to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today." />
+			content="Create Photographer &amp; Model Portfolio Websites with Canvas Template. Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today." />
 
 		<!-- Font Imports -->
 		<link
@@ -56,42 +56,39 @@
 
 		<!-- Document Title
 	============================================= -->
-		<title>Photographer | Amssulf</title>
+		<title>Photographer | Canvas</title>
 	</head>
 
-	<!-- Page Loader, stretched (body)
+	<!-- Overlay Menu, Dark, Page Loader, Stretched (body)
 ============================================= -->
 	<body
 		class="stretched dark"
-		data-loader-html="<div><img src='assets/images/icons/loader.svg' alt='Loader'></div>"
-		data-menu-breakpoint="9999">
+		data-loader-html="<div><img src='assets/images/icons/loader-white.svg' alt='Loader'></div>">
 		<!-- Document Wrapper
 	============================================= -->
 		<div id="wrapper">
 			<!-- Header
 		============================================= -->
-			<!-- Header -->
 			<header
 				id="header"
-				class="transparent-header no-sticky">
+				class="transparent-header no-sticky"
+				data-sticky-shrink="false">
 				<div id="header-wrap">
 					<div class="container">
 						<div class="header-row">
-							<a
-								href="index.html"
-								class="logo-link">
-								<img
+							<a href="index.html"
+								><img
 									src="/assets/images/amssulf_logo_dark.png"
-									alt="Amssulf Logo"
-									height="100" />
-							</a>
+									alt="Canvas Logo"
+									height="100"
+							/></a>
 
 							<div>
 								<div class="primary-menu-trigger hamburger">
 									<i class="bi-list"></i>
 									<i class="bi-x-lg"></i>
 								</div>
-								<nav class="global-menu">
+								<div class="global-menu">
 									<div class="global-menu__wrap">
 										<a
 											class="global-menu__item"
@@ -101,9 +98,8 @@
 										<a
 											class="global-menu__item"
 											href="#"
-											>Portfolio</a
+											>Photography</a
 										>
-										<!-- Changed "Photography" to "Portfolio" -->
 										<a
 											class="global-menu__item"
 											href="#"
@@ -115,7 +111,7 @@
 											>Contact</a
 										>
 									</div>
-								</nav>
+								</div>
 								<svg
 									class="shape-overlays"
 									viewBox="0 0 100 100"
@@ -141,51 +137,64 @@
 			</header>
 			<!-- #header end -->
 
-			<!-- Slider -->
+			<!-- Slider
+		============================================= -->
 			<section
 				id="slider"
 				class="slider-element min-vh-60 min-vh-md-100 include-header"
 				style="
-					background: url('assets/images/dots-white.png') 130% 0
-						no-repeat;
+					background: #050505 url('assets/images/dots-white.png') 100%
+						0 no-repeat;
 					background-size: 60%;
 				">
 				<div class="slider-inner">
 					<div class="vertical-middle">
-						<div
-							class="container parallax py-5"
-							data-0="opacity: 1; overflow: visible; margin-top:0px"
-							data-top-bottom="opacity: 0; overflow: visible; margin-top:100px">
+						<div class="container py-5">
 							<div class="row align-items-center col-mb-50">
 								<div class="col-md-6 dark">
 									<div class="py-5 py-md-0">
 										<small
 											class="text-muted text-uppercase fw-light ls-4 mb-1 d-block"
-											>Professional Photography &
-											Videography</small
+											>Photographer</small
 										>
-										<h2>Bring Visions to Life.</h2>
+										<h2>Shooting Your Memory.</h2>
 										<h5
 											class="fw-light ls-1"
 											style="opacity: 0.7">
-											Capturing the beauty of Morocco, one
-											click at a time. Specializing in
-											weddings, real estate, events,
-											cultural, and product photography.
+											We’re Pedro and Aistė, a passionate
+											digital designer and a skillful
+											Canvas developer focused in
+											delivering a high quality service.
 										</h5>
 										<div
 											class="d-flex align-items-center mt-5">
 											<a
-												href="https://instagram.com/amssulf"
-												target="_blank"
+												href="#"
 												class="button button-change button-rounded overflow-hidden text-transform-none button-large fw-normal mx-0 px-5">
 												<span
 													><i
-														class="bi-instagram fw-semibold"></i>
-													View My Work & Connect</span
+														class="bi-envelope fw-semibold"></i>
+													Email Me Here</span
 												>
 											</a>
-											<!-- Removed duplicate social icons -->
+											<a
+												href="https://facebook.com/semicolonweb"
+												target="_blank"
+												class="d-none d-sm-inline-block my-0 me-0 ms-4 social-icon si-small bg-facebook">
+												<i
+													class="fa-brands fa-facebook-f"></i>
+												<i
+													class="fa-brands fa-facebook-f"></i>
+											</a>
+											<a
+												href="https://facebook.com/semicolonweb"
+												target="_blank"
+												class="d-none d-sm-inline-block my-0 me-0 ms-3 social-icon si-small bg-x-twitter">
+												<i
+													class="fa-brands fa-x-twitter"></i>
+												<i
+													class="fa-brands fa-x-twitter"></i>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -193,7 +202,7 @@
 								<div class="col-md-6 ps-md-5 ps-lg-0">
 									<div class="row align-items-stretch">
 										<div
-											class="col-lg-6 col-md-12 rounded col-6 d-none d-sm-flex"
+											class="col-lg-6 col-md-12 rounded col-6"
 											style="
 												background: url('assets/images/1.jpg')
 													center center no-repeat;
@@ -204,7 +213,7 @@
 										<div
 											class="col-6 d-none d-lg-flex"></div>
 										<div
-											class="col-lg-6 col-md-12 gradient-border shadow-sm col-sm-6 col-12 max-height"
+											class="col-lg-6 col-md-12 rounded col-6"
 											style="background-color: #252525">
 											<div
 												class="feature-box flex-column not-dark px-3 py-4 fbox-sm">
@@ -212,7 +221,7 @@
 													<img
 														src="/assets/images/icons/instagram.svg"
 														class="rounded-0 bg-transparent text-start"
-														alt="Instagram Icon"
+														alt="Image"
 														style="height: 48px" />
 												</div>
 												<div class="fbox-content">
@@ -222,20 +231,21 @@
 															margin: 90px auto;
 														"></div>
 													<p class="mb-0 fw-normal">
-														See My Latest Work
+														View My Stories
 													</p>
 													<h3
 														class="fw-medium mt-1 mb-0 d-flex align-self-end">
 														<a
-															href="https://instagram.com/amssulf"
+															href="https://instagram.com/semicolonweb"
 															target="_blank"
+															class="text-light"
 															>Instagram
 															<i
 																class="bi-arrow-right fw-semibold position-relative"
 																style="
 																	top: 2px;
-																"></i>
-														</a>
+																"></i
+														></a>
 													</h3>
 												</div>
 											</div>
@@ -258,7 +268,8 @@
 					border-top: 1px solid rgba(255, 255, 255, 0.1);
 				">
 				<div class="content-wrap">
-					<!-- Flip Card Sections -->
+					<!-- Flip Card Section
+				============================================= -->
 					<div class="section dark mt-0">
 						<div class="container">
 							<div
@@ -269,33 +280,29 @@
 									data-top-bottom="margin-top:50px">
 									<small
 										class="text-muted text-uppercase fw-light ls-4 mb-1 d-block"
-										>Photography & Videography in
-										Morocco</small
+										>Experience</small
 									>
 									<h2
 										class="fw-bold ls-0 mb-4"
 										style="font-size: 38px">
-										Abderrazzak Beniguemim Amssulf
+										I have been taking photographs for last
+										7 years.
 									</h2>
 									<p
 										class="text-muted"
 										style="font-size: 16px">
-										Based in Agadir and serving the Souss
-										Massa region and all of Morocco,
-										Abderrazzak Beniguemim (Amssulf -
-										"Photographer" in Tamazight) brings over
-										7 years of experience to capture your
-										vision. From stunning landscapes to
-										unforgettable events, I provide
-										professional photography and videography
-										services tailored to your needs.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora nihil praesentium
+										dolorum unde, earum, nostrum odit?
 									</p>
 								</div>
 
 								<div class="col-lg-7">
 									<div class="row">
 										<div class="col-sm-6">
-											<!-- Flip Card: Nature & Landscape -->
+											<!-- Flip Card
+										============================================= -->
 											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
@@ -312,27 +319,28 @@
 																	<img
 																		src="/assets/images/icons/camera1.svg"
 																		class="rounded-0 bg-transparent text-start"
-																		alt="Nature Photography Icon" />
+																		alt="Image" />
 																</a>
 															</div>
 															<div
 																class="fbox-content">
 																<h3
-																	class="fw-normal text-transform-none">
-																	Nature &
-																	Landscape
+																	class="fw-normal text-transform-none text-white">
+																	Wild
+																	Photography
 																</h3>
 																<p
 																	class="text-muted fw-medium">
-																	Showcase the
-																	beauty of
-																	Morocco.
-																	Ideal for
-																	tourism,
-																	environmental
-																	projects,
-																	and personal
-																	collections.
+																	Lorem ipsum
+																	dolor sit
+																	amet,
+																	consectetur
+																	adipisicing
+																	elit.
+																	Eligendi
+																	rem, facilis
+																	nobis
+																	voluptatum.
 																</p>
 															</div>
 														</div>
@@ -345,15 +353,30 @@
 													">
 													<div
 														class="flip-card-inner mt-3">
-														<h4 class="mb-4">
-															Moroccan Landscapes
+														<h4
+															class="mb-4 text-white">
+															Lorem ipsum, dolor
+															sit amet consectetur
+															adipisicing elit.
+															Alias cum repellat
+															velit.
 														</h4>
+														<a
+															href="#"
+															class="button button-change overflow-hidden rounded text-transform-none fw-light m-0">
+															<span
+																>View
+																Photos</span
+															>
+														</a>
 													</div>
 												</div>
 											</div>
 										</div>
+
 										<div class="col-sm-6 mb-5">
-											<!-- Flip Card:  Travel & Cultural -->
+											<!-- Flip Card
+										============================================= -->
 											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
@@ -370,30 +393,27 @@
 																	<img
 																		src="/assets/images/icons/travel.svg"
 																		class="rounded-0 bg-transparent text-start"
-																		alt="Travel Photography Icon" />
+																		alt="Image" />
 																</a>
 															</div>
 															<div
 																class="fbox-content">
 																<h3
-																	class="fw-normal text-transform-none">
-																	Travel &
-																	Culture
+																	class="fw-normal text-transform-none text-white">
+																	Travel Blog
 																</h3>
 																<p
 																	class="text-muted fw-medium">
-																	Capture the
-																	essence of
-																	Morocco's
-																	rich
-																	heritage.
-																	Perfect for
-																	cultural
-																	events,
-																	travel
-																	agencies,
-																	and
-																	publications.
+																	Lorem ipsum
+																	dolor sit
+																	amet,
+																	consectetur
+																	adipisicing
+																	elit.
+																	Eligendi
+																	rem, facilis
+																	nobis
+																	voluptatum.
 																</p>
 															</div>
 														</div>
@@ -406,16 +426,30 @@
 													">
 													<div
 														class="flip-card-inner mt-3">
-														<h4 class="mb-4">
-															Moroccan Culture in
-															Focus
+														<h4
+															class="mb-4 text-white">
+															Lorem ipsum, dolor
+															sit amet consectetur
+															adipisicing elit.
+															Alias cum repellat
+															velit.
 														</h4>
+														<a
+															href="#"
+															class="button button-change overflow-hidden rounded text-transform-none fw-light m-0">
+															<span
+																>View
+																Photos</span
+															>
+														</a>
 													</div>
 												</div>
 											</div>
 										</div>
+
 										<div class="col-sm-6 mb-5">
-											<!-- Flip Card: Wedding -->
+											<!-- Flip Card
+										============================================= -->
 											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
@@ -432,28 +466,28 @@
 																	<img
 																		src="/assets/images/icons/wedding.svg"
 																		class="rounded-0 bg-transparent text-start"
-																		alt="Wedding Photography Icon" />
+																		alt="Image" />
 																</a>
 															</div>
 															<div
 																class="fbox-content">
 																<h3
-																	class="fw-normal text-transform-none">
-																	Weddings
+																	class="fw-normal text-transform-none text-white">
+																	Wedding
+																	Shoots
 																</h3>
 																<p
 																	class="text-muted fw-medium">
-																	Preserve
-																	your
-																	precious
-																	memories
-																	with
-																	beautiful,
-																	timeless
-																	wedding
-																	photography
-																	and
-																	videography.
+																	Lorem ipsum
+																	dolor sit
+																	amet,
+																	consectetur
+																	adipisicing
+																	elit.
+																	Eligendi
+																	rem, facilis
+																	nobis
+																	voluptatum.
 																</p>
 															</div>
 														</div>
@@ -466,16 +500,30 @@
 													">
 													<div
 														class="flip-card-inner mt-3">
-														<h4 class="mb-4">
-															Your Special Day,
-															Captured
+														<h4
+															class="mb-4 text-white">
+															Lorem ipsum, dolor
+															sit amet consectetur
+															adipisicing elit.
+															Alias cum repellat
+															velit.
 														</h4>
+														<a
+															href="#"
+															class="button button-change overflow-hidden rounded text-transform-none fw-light m-0">
+															<span
+																>View
+																Photos</span
+															>
+														</a>
 													</div>
 												</div>
 											</div>
 										</div>
+
 										<div class="col-sm-6">
-											<!-- Flip Card: Real Estate & Product -->
+											<!-- Flip Card
+										============================================= -->
 											<div class="flip-card dark">
 												<div
 													class="flip-card-front no-after"
@@ -492,28 +540,28 @@
 																	<img
 																		src="/assets/images/icons/camera2.svg"
 																		class="rounded-0 bg-transparent text-start"
-																		alt="Commercial Photography Icon" />
+																		alt="Image" />
 																</a>
 															</div>
 															<div
 																class="fbox-content">
 																<h3
-																	class="fw-normal text-transform-none">
-																	Real Estate
-																	& Products
+																	class="fw-normal text-transform-none text-white">
+																	Candid
+																	Moments
 																</h3>
 																<p
 																	class="text-muted fw-medium">
-																	Attract
-																	buyers with
-																	professional,
-																	high-impact
-																	images for
-																	your Airbnb,
-																	real estate
-																	listings, or
-																	e-commerce
-																	products.
+																	Lorem ipsum
+																	dolor sit
+																	amet,
+																	consectetur
+																	adipisicing
+																	elit.
+																	Eligendi
+																	rem, facilis
+																	nobis
+																	voluptatum.
 																</p>
 															</div>
 														</div>
@@ -526,11 +574,22 @@
 													">
 													<div
 														class="flip-card-inner mt-3">
-														<h4 class="mb-4">
-															Boost Your Sales
-															with Stunning
-															Visuals
+														<h4
+															class="mb-4 text-white">
+															Lorem ipsum, dolor
+															sit amet consectetur
+															adipisicing elit.
+															Alias cum repellat
+															velit.
 														</h4>
+														<a
+															href="#"
+															class="button button-change overflow-hidden rounded text-transform-none fw-light m-0">
+															<span
+																>View
+																Photos</span
+															>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -541,43 +600,40 @@
 						</div>
 					</div>
 
-					<!-- Section Photographs -->
+					<!-- Photographs Section
+				============================================= -->
 					<div class="section bg-transparent">
 						<div class="container">
+							<!-- Heading Title -->
 							<div class="col-lg-6 offset-lg-1 mb-5">
 								<small
 									class="text-muted text-uppercase fw-light ls-3 d-block"
-									>Featured Work - Photographer in Agadir &
-									Morocco</small
+									>Some of Featured Pictures</small
 								>
 								<h2
 									class="fw-bold ls-0 mb-3"
 									style="font-size: 46px">
-									Portfolio
+									See what I Did.
 								</h2>
 								<p
 									class="text-muted"
 									style="font-size: 16px">
-									A selection of my work, showcasing
-									photography and videography projects across
-									Agadir, the Souss Massa region, and
-									throughout Morocco. I specialize in
-									weddings, events, real estate, e-commerce
-									product photography, nature, cultural
-									documentation, and short artistic films.
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Consequatur blanditiis
+									saepe dolore tempora nihil praesentium
+									dolorum unde, earum, nostrum odit?
 								</p>
 							</div>
 
 							<div
 								class="row grid-container gutter-30"
 								style="overflow: visible">
-								<!--  (Images remain unchanged) -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/1.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/1.jpg"
 												alt="Image"
@@ -588,7 +644,7 @@
 												>Travel</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Railway Station</a>
+												<a href="#">Ralway Station</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -599,14 +655,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/2.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/2.jpg"
 												alt="Image"
@@ -628,14 +682,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/3.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/3.jpg"
 												alt="Image"
@@ -657,14 +709,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/4.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/4.jpg"
 												alt="Image"
@@ -688,14 +738,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/5.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/5.jpg"
 												alt="Image"
@@ -706,7 +754,7 @@
 												>Wedding</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Romantic Moments</a>
+												<a href="#">Romatic Moments</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -717,14 +765,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/6.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/6.jpg"
 												alt="Image"
@@ -748,14 +794,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/7.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/7.jpg"
 												alt="Image"
@@ -766,7 +810,9 @@
 												>Candid</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Black & White</a>
+												<a href="#"
+													>Black &amp; White</a
+												>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -777,14 +823,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/8.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/8.jpg"
 												alt="Image"
@@ -806,14 +850,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/9.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/9.jpg"
 												alt="Image"
@@ -824,7 +866,7 @@
 												>Random</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Little Flubby</a>
+												<a href="#">Littile Flubby</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -835,14 +877,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/10.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/10.jpg"
 												alt="Image"
@@ -864,14 +904,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/11.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/11.jpg"
 												alt="Image"
@@ -882,7 +920,7 @@
 												>Fashion</small
 											>
 											<h3 class="img-hover-title">
-												<a href="#">Beach Shoot</a>
+												<a href="#">Sea Beach Shoot</a>
 											</h3>
 											<div class="img-link">
 												<a href="#"
@@ -893,14 +931,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/12.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/12.jpg"
 												alt="Image"
@@ -922,14 +958,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/13.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/13.jpg"
 												alt="Image"
@@ -951,14 +985,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/14.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/14.jpg"
 												alt="Image"
@@ -980,14 +1012,12 @@
 										</div>
 									</div>
 								</div>
-								<!-- Photographs
-									============================================= -->
+								<!-- Photograph -->
 								<div
-									class="col-lg-4 col-sm-6 rounded img-hover-wrap">
+									class="col-lg-4 col-sm-6 rounded img-hover-wrap"
+									data-animate="fadeInUp">
 									<div class="img-hover-card">
-										<a
-											href="/assets/images/album/15.jpg"
-											data-lightbox="image"
+										<a href="#"
 											><img
 												src="/assets/images/album/15.jpg"
 												alt="Image"
@@ -1011,28 +1041,28 @@
 								</div>
 							</div>
 
-							<!-- Titles -->
 							<div class="row mt-5">
-								<div class="col-sm-6 offset-sm-1">
+								<div class="col-sm-6 dark offset-sm-1">
 									<h2
 										class="fw-bold ls-0 mb-3"
 										style="font-size: 38px">
-										More Projects Coming Soon
+										More Coming Soon..
 									</h2>
 									<p
 										class="text-muted"
 										style="font-size: 16px">
-										I'm constantly expanding my portfolio.
-										Check back regularly for new photography
-										and videography projects from across
-										Morocco.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora nihil praesentium
+										dolorum unde, earum, nostrum odit?
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Counter Section -->
+					<!-- Counter Section
+				============================================= -->
 					<div
 						class="section"
 						style="
@@ -1043,7 +1073,8 @@
 						">
 						<div class="container">
 							<div class="row justify-content-between dark">
-								<!-- Counter: Years of Experience -->
+								<!-- Counter
+							============================================= -->
 								<div class="col-lg-3 col-md-6 mt-4">
 									<div class="counter counter-large fw-light">
 										<span
@@ -1053,16 +1084,17 @@
 											data-speed="2000"></span
 										>+
 									</div>
-									<h5>Years of Experience</h5>
+									<h5>years of Experience</h5>
 									<p
 										class="text-muted mb-0 pb-5 dark border-bottom">
-										Over seven years dedicated to perfecting
-										the art of visual storytelling in
-										Morocco.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora.
 									</p>
 								</div>
 
-								<!-- Counter: Projects Completed -->
+								<!-- Counter
+							============================================= -->
 								<div class="col-lg-3 col-md-6 mt-4">
 									<div class="counter counter-large fw-light">
 										<span
@@ -1073,15 +1105,17 @@
 											data-comma="true"></span
 										>+
 									</div>
-									<h5>Projects Completed</h5>
+									<h5>Posted Travel Blogs</h5>
 									<p
 										class="text-muted mb-0 pb-5 dark border-bottom">
-										Delivering exceptional results for a
-										wide range of clients and projects.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora.
 									</p>
 								</div>
 
-								<!-- Counter:  Satisfied Clients -->
+								<!-- Counter
+							============================================= -->
 								<div class="col-lg-3 col-md-6 mt-4">
 									<div class="counter counter-large fw-light">
 										<span
@@ -1092,18 +1126,20 @@
 											data-comma="true"></span
 										>+
 									</div>
-									<h5>Satisfied Clients</h5>
+									<h5>Has Photos Published</h5>
 									<p
 										class="text-muted mb-0 pb-5 dark border-bottom">
-										Building lasting relationships through
-										quality work and exceptional service.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Clients (Placeholder images, no text changes) -->
+					<!-- Clients Section
+				============================================= -->
 					<div class="section dark bg-transparent">
 						<div class="container text-center">
 							<small
@@ -1115,77 +1151,122 @@
 								style="font-size: 46px">
 								Happy Clients
 							</h2>
-
 							<div class="row">
 								<div class="col-md-10 offset-md-1">
 									<div class="row">
-										<!-- Client Images (unchanged) -->
+										<!-- Client -->
 										<div class="col-md-3 col-6">
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/dark/ibnozohr_logo_dark.png"
+													src="/assets/images/clients/dark/1.png"
 													alt="clients"
 											/></a>
 										</div>
+										<!-- Client -->
 										<div class="col-md-3 col-6">
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/dark/talweekend_logo_dark.png"
+													src="/assets/images/clients/dark/2.png"
 													alt="clients"
 											/></a>
 										</div>
+										<!-- Client -->
 										<div class="col-md-3 col-6">
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/dark/tiflwine_logo_dark.png"
+													src="/assets/images/clients/dark/3.png"
 													alt="clients"
 											/></a>
 										</div>
+										<!-- Client -->
 										<div class="col-md-3 col-6">
 											<a href="#"
 												><img
 													class="p-4"
-													src="/assets/images/clients/dark/tiznit_logo_dark.png"
+													src="/assets/images/clients/dark/4.png"
+													alt="clients"
+											/></a>
+										</div>
+										<!-- Client -->
+										<div class="col-md-3 col-6">
+											<a href="#"
+												><img
+													class="p-4"
+													src="/assets/images/clients/dark/5.png"
+													alt="clients"
+											/></a>
+										</div>
+										<!-- Client -->
+										<div class="col-md-3 col-6">
+											<a href="#"
+												><img
+													class="p-4"
+													src="/assets/images/clients/dark/6.png"
+													alt="clients"
+											/></a>
+										</div>
+										<!-- Client -->
+										<div class="col-md-3 col-6">
+											<a href="#"
+												><img
+													class="p-4"
+													src="/assets/images/clients/dark/7.png"
+													alt="clients"
+											/></a>
+										</div>
+										<!-- Client -->
+										<div class="col-md-3 col-6">
+											<a href="#"
+												><img
+													class="p-4"
+													src="/assets/images/clients/dark/8.png"
 													alt="clients"
 											/></a>
 										</div>
 									</div>
 								</div>
 							</div>
+
+							<a
+								href="#"
+								class="button button-change button-large button-rounded text-transform-none fw-light mt-4 ms-0">
+								<span
+									>View More Clients
+									<i class="bi-arrow-right"></i
+								></span>
+							</a>
 						</div>
 					</div>
 
-					<!-- Service Section -->
-					<div
-						class="section bg-transparent"
-						style="padding: 140px 0">
+					<!-- Service Section
+				============================================= -->
+					<div class="section bg-transparent">
 						<div class="container">
 							<div class="col-sm-6 dark mb-5">
 								<small
 									class="text-muted text-uppercase fw-light ls-3 d-block"
-									>My Approach</small
+									>Steps of Works</small
 								>
 								<h2
 									class="fw-bold ls-0 mb-3"
 									style="font-size: 46px">
-									Your Vision, My Expertise
+									See How I Do.
 								</h2>
 								<p
 									class="text-muted"
 									style="font-size: 16px">
-									I work closely with you to understand your
-									goals and deliver stunning visuals that
-									exceed expectations. My process is
-									collaborative, professional, and focused on
-									your satisfaction.
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Consequatur blanditiis
+									saepe dolore tempora nihil praesentium
+									dolorum unde, earum, nostrum odit?
 								</p>
 							</div>
 
 							<div class="row">
-								<!-- Card 1:  Precision & Quality -->
+								<!-- Card 1 -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
 										class="card dark d-flex align-items-end flex-column p-3"
@@ -1200,34 +1281,34 @@
 												<img
 													src="/assets/images/icons/shutter.svg"
 													width="40"
-													alt="Shutter Icon"
+													alt="Image"
 													class="mb-4" />
 												<h4
 													class="card-title fw-normal">
-													Uncompromising Quality
+													Updated Lenses:
 												</h4>
 												<p
-													class="card-text mb-0 mt-2 fw-light">
-													I use professional-grade
-													equipment and meticulous
-													attention to detail to
-													ensure crisp,
-													high-resolution images and
-													videos.
+													class="card-text mb-0 mt-2 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements after team
+													building testing procedures.
+													Distinctively architect
+													resource-leveling portals.
 												</p>
 												<br />
 												<p
-													class="card-text mb-0 fw-light">
-													Your satisfaction is my
-													priority, and I strive for
-													perfection in every shot.
+													class="card-text mb-0 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements.
 												</p>
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<!-- Card 2: Cinematic Storytelling -->
+								<!-- Card 2 -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
 										class="card dark d-flex align-items-end flex-column p-3"
@@ -1242,32 +1323,35 @@
 												<img
 													src="/assets/images/icons/video-camera.svg"
 													width="40"
-													alt="Video Camera Icon"
+													alt="Image"
 													class="mb-4" />
+												<!-- Card<h4 class="card-title t -->
 												<h4
 													class="card-title fw-normal">
-													Captivating Visual Stories
+													Film Making:
 												</h4>
 												<p
-													class="card-text mb-0 mt-2 fw-light">
-													More than just pictures, I
-													create compelling narratives
-													that evoke emotion and leave
-													a lasting impression.
+													class="card-text mb-0 mt-2 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements.
 												</p>
 												<br />
 												<p
-													class="card-text mb-0 fw-light">
-													I transform moments into
-													memories, telling your story
-													with artistry and impact.
+													class="card-text mb-0 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements after team
+													building testing procedures.
+													Distinctively architect
+													resource-leveling portals.
 												</p>
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<!-- Card 3:  Professional Editing -->
+								<!-- Card 3 -->
 								<div class="col-lg-4 col-md-6 mt-3">
 									<div
 										class="card dark d-flex align-items-end flex-column p-3"
@@ -1285,37 +1369,38 @@
 														><img
 															src="/assets/images/icons/lr.svg"
 															width="35"
-															alt="Lightroom Icon"
+															alt="Image"
 													/></span>
 													<span
 														class="px-3 h6 m-0 fw-light"
-														>&</span
+														>&amp;</span
 													>
 													<span
 														><img
 															src="/assets/images/icons/psd.svg"
 															width="35"
-															alt="Photoshop Icon"
+															alt="Image"
 													/></span>
 												</div>
 												<h4
 													class="card-title fw-normal">
-													Expert Post-Production
+													Most Edited Tools:
 												</h4>
 												<p
-													class="card-text mb-0 mt-2 fw-light">
-													Using industry-leading
-													software, I meticulously
-													enhance and refine every
-													image and video.
+													class="card-text mb-0 mt-2 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements.
 												</p>
 												<br />
 												<p
-													class="card-text mb-0 fw-light">
-													From color correction to
-													retouching, I ensure a
-													polished, professional final
-													product.
+													class="card-text mb-0 text-white-50 fw-light">
+													Objectively productivate
+													interoperable process
+													improvements after team
+													building testing procedures.
+													Distinctively architect
+													resource-leveling portals.
 												</p>
 											</div>
 										</div>
@@ -1325,15 +1410,15 @@
 						</div>
 					</div>
 
-					<!-- Contact Section -->
+					<!-- Contact Section
+				============================================= -->
 					<div class="section mb-0 bg-transparent">
 						<div class="container">
 							<div class="row justify-content-between mt-5">
-								<!-- Heading Title -->
-								<div class="col-md-6">
+								<div class="col-md-6 dark">
 									<small
 										class="text-muted text-uppercase fw-light ls-3 d-block"
-										>Connect with Amssulf</small
+										>Let's Say Hi!</small
 									>
 									<h2
 										class="fw-bold ls-0 mb-3"
@@ -1341,44 +1426,58 @@
 											font-size: 64px;
 											line-height: 1.2;
 										">
-										Let's Talk
+										Here You Contact Me.
 									</h2>
 									<p
 										class="text-muted"
 										style="font-size: 16px">
-										I'm ready to discuss your photography
-										and videography needs in Agadir, the
-										Souss Massa region, or anywhere in
-										Morocco. Reach out on Instagram for the
-										fastest response.
+										Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit. Consequatur blanditiis
+										saepe dolore tempora nihil praesentium
+										dolorum unde, earum, nostrum odit?
 									</p>
 									<div class="d-flex align-items-center mt-4">
 										<a
-											href="https://instagram.com/amssulf"
-											target="_blank"
-											class="my-0 me-5 ms-3 social-icon inline-block si-large text-white bg-instagram">
-											<i class="bi-instagram"></i>
-											<i class="bi-instagram"></i>
-											<span>Message on Instagram</span>
-										</a>
-										<p
-											class="text-muted"
-											style="font-size: 14px">
-											<br />
-											You can also reach me by email:
-											<a href="mailto:contact@amssulf.com"
-												>contact@amssulf.com</a
+											href="#"
+											class="button button-change button-large button-rounded text-transform-none fw-light m-0 overflow-hidden">
+											<span
+												><i class="bi-envelope"></i>
+												Contact Us</span
 											>
-											<br />
-											Or call/WhatsApp: +212 600400728
-										</p>
+										</a>
+										<a
+											href="https://facebook.com/semicolonweb"
+											target="_blank"
+											class="my-0 ms-3 social-icon inline-block si-small border-0 h-bg-facebook">
+											<i
+												class="fa-brands fa-facebook-f"></i>
+											<i
+												class="fa-brands fa-facebook-f"></i>
+										</a>
+										<a
+											href="https://twitter.com/__semicolon"
+											target="_blank"
+											class="my-0 ms-2 social-icon inline-block si-small border-0 h-bg-x-twitter">
+											<i
+												class="fa-brands fa-x-twitter"></i>
+											<i
+												class="fa-brands fa-x-twitter"></i>
+										</a>
+										<a
+											href="https://instagram.com/semicolonweb"
+											target="_blank"
+											class="my-0 ms-2 social-icon inline-block si-small border-0 h-bg-instagram">
+											<i class="bi-instagram"></i>
+											<i class="bi-instagram"></i>
+										</a>
 									</div>
 								</div>
 
-								<!-- Testimonials (Placeholder - No Changes) -->
-								<div class="col-md-5 mt-5 mt-md-0">
+								<!-- Testimonial
+							============================================= -->
+								<div class="dark col-md-5 mt-5 mt-md-0">
 									<h5 class="ps-4 fw-normal">
-										What Clients Say:
+										What Clients Says:
 									</h5>
 									<div
 										id="oc-testi"
@@ -1393,7 +1492,10 @@
 										<div class="oc-item">
 											<div class="p-3">
 												<div
-													class="quote-bubble quote-bubble-left mb-3">
+													class="quote-bubble quote-bubble-left mb-3"
+													style="
+														--cnvs-bubble-color: #444;
+													">
 													<p>
 														Incidunt deleniti
 														blanditiis quas aperiam
@@ -1412,7 +1514,10 @@
 										<div class="oc-item">
 											<div class="p-3">
 												<div
-													class="quote-bubble quote-bubble-left mb-3">
+													class="quote-bubble quote-bubble-left mb-3"
+													style="
+														--cnvs-bubble-color: #444;
+													">
 													<p>
 														Completely e-enable
 														premier infomediaries
@@ -1450,37 +1555,35 @@
 					<div class="container">
 						<div class="w-100 text-center mt-4">
 							<p class="mb-3">
-								&copy; Amssulf. 2025. All Rights Reserved.
+								&copy; Canvas Inc. 2020. All Rights Reserved.
 							</p>
-							<div class="d-flex justify-content-center">
-								<a
-									href="https://facebook.com/amssulf"
-									target="_blank"
-									class="social-icon si-small rounded-circle text-white bg-facebook">
-									<i class="fa-brands fa-facebook-f"></i>
-									<i class="fa-brands fa-facebook-f"></i>
-								</a>
-								<a
-									href="https://twitter.com/__semicolon"
-									target="_blank"
-									class="social-icon si-small rounded-circle text-white bg-whatsapp">
-									<i class="fa-brands fa-whatsapp"></i>
-									<i class="fa-brands fa-whatsapp"></i>
-								</a>
-								<a
-									href="https://instagram.com/semicolonweb"
-									target="_blank"
-									class="social-icon si-small rounded-circle text-white bg-instagram">
-									<i class="bi-instagram"></i>
-									<i class="bi-instagram"></i>
-								</a>
-								<a
-									href="mailto:noreply@amssulf.com"
-									class="social-icon si-small rounded-circle text-white bg-google">
-									<i class="bi-envelope"></i>
-									<i class="bi-envelope"></i>
-								</a>
-							</div>
+							<a
+								href="https://facebook.com/semicolonweb"
+								target="_blank"
+								class="social-icon inline-block si-small border-0 text-white-50 rounded-circle h-bg-facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a
+								href="https://twitter.com/__semicolon"
+								target="_blank"
+								class="social-icon inline-block si-small border-0 text-white-50 rounded-circle h-bg-x-twitter">
+								<i class="fa-brands fa-x-twitter"></i>
+								<i class="fa-brands fa-x-twitter"></i>
+							</a>
+							<a
+								href="https://instagram.com/semicolonweb"
+								target="_blank"
+								class="social-icon inline-block si-small border-0 text-white-50 rounded-circle h-bg-instagram">
+								<i class="bi-instagram"></i>
+								<i class="bi-instagram"></i>
+							</a>
+							<a
+								href="mailto:noreply@canvas.com"
+								class="social-icon inline-block si-small border-0 text-white-50 rounded-circle h-bg-google">
+								<i class="bi-envelope"></i>
+								<i class="bi-envelope"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -1496,27 +1599,17 @@
 			id="gotoTop"
 			class="uil uil-angle-up bg-color"></div>
 
-		<!-- Dark Mode Switch
+		<!-- Light Mode Switch
 	============================================= -->
 		<a
-			href="index-dark.html"
+			href="index.html"
 			class="dark-mode"
 			data-animate="fadeInRight">
-			<span>Dark Mode</span><i class="bi-toggle-off shadow"></i>
+			<span>Light Mode</span><i class="bi-toggle-off shadow"></i>
 		</a>
 
 		<!-- JavaScripts
 	============================================= -->
-
-		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-		<script>
-			var SEMICOLON = {
-				Core: {},
-				Modules: {},
-				Plugins: {},
-				Helpers: {},
-			}
-		</script>
 		<script src="/assets/js/plugins.min.js"></script>
 		<script src="/assets/js/functions.bundle.js"></script>
 
